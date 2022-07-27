@@ -299,7 +299,7 @@ if (keys.w.pressed || keys.a.pressed || keys.s.pressed || keys.d.pressed ){
 				rectangularCollision({
 				rectangle1: player,
 				rectangle2: {...boundary, position: {
-					x: boundary.position.x + 3,
+					x: boundary.position.x - 3,
 					y: boundary.position.y 
 				}
 			}
